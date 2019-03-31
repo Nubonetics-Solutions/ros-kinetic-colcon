@@ -11,5 +11,4 @@ RUN apt-get update && \
     pip3 install -U colcon-common-extensions colcon-ros-bundle
 
 ENV WORKSPACE=/workspace
-RUN mkdir -p $WORKSPACE/src
-WORKDIR $WORKSPACE/src
+WORKDIR $WORKSPACE
